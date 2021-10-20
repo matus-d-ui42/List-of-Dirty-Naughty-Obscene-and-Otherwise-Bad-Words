@@ -43,6 +43,12 @@ Miscellaneous caveat: Clearly, what goes in these lists is subjective.  In our c
 
 See also the [list of projects, documents, and organizations](USERS.md) that use these lists.
 
+## Composer
+
+```bash
+composer require buxus/naughty-words
+```
+
 ## Node Module
 
 If you are using the word lists as `.json`, or in an `npm`project, you can install the word list using the [naughty-words](https://github.com/LDNOOBW/naughty-words-js) package.

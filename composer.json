@@ -1,0 +1,31 @@
+{
+    "name": "buxus/naughty-words",
+    "type": "library",
+    "description": "List of naughty words",
+    "license": "proprietary",
+    "keywords": [
+        "delivery",
+        "ceska",
+        "posta",
+        "eshop"
+    ],
+    "homepage": "https://github.com/matus-d-ui42/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words",
+    "autoload": {
+        "psr-4": {
+            "Buxus\\NaughtyWords\\": "src/"
+        }
+    },
+    "require": {
+      
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Buxus\\NaughtyWords\\NaughtyWordsModule"
+            ]
+        }
+    }
+}
