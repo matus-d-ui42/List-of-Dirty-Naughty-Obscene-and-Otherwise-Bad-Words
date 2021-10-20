@@ -1,5 +1,5 @@
 {
-    "name": "buxus/naughty-words",
+    "name": "buxus-libs/naughty-words",
     "type": "library",
     "description": "List of naughty words",
     "license": "proprietary",
