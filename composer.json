@@ -16,7 +16,8 @@
         }
     },
     "require": {
-      
+      "illuminate/collections": "*",
+      "illuminate/support": "*"
     },
     "extra": {
         "branch-alias": {

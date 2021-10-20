@@ -2,13 +2,13 @@
 
 namespace Buxus\NaughtyWords;
 
-use Buxus\Module\BuxusModule;
+use Illuminate\Support\ServiceProvider;
 
-class NaughtyWordsModule extends BuxusModule
+class NaughtyWordsModule extends ServiceProvider
 {
     public function register()
     {
-
+        $this->app->bindIf('buxus:naughty-words:helper', NaughtyWords::class);
     }
 
     public function boot()
